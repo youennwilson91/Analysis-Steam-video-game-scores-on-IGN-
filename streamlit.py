@@ -1,3 +1,5 @@
+#This file sets up the streamlit app with the dataframe resulting from the merge between IGN and Steam data.
+
 import streamlit as st
 from shaping_data import df
 import pandas as pd
