@@ -32,7 +32,6 @@ st.write('2 - This analysis was made by merging Steam data (downloaded from http
 st.write('3 - IGN usually makes review up to two weeks after a game is released. Since it might be confusing, each chart will have a little description attached. ' )
 st.write('5 - The dataset resulting from the merge of Steam and IGN data contains 892 rows, each row for a game. '
          'Due to insufficient data, reality is most likely to differ from the results shown here.')
-st.write('6 - My name is Youenn WILSON. This is my first fully autonomus data analysis project.')
 
 
 if genre == "All":
