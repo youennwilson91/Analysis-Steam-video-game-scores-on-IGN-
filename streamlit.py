@@ -74,7 +74,7 @@ st.subheader(f'Month:{month} / Year:{year} / Genre : {genre}')
 
 
 st.dataframe(df2)
-st.header(f'Visualisation of time spent on games according to release year {year}')
+st.header(f'Visualisation of time spent on games according to the year of release {year}')
 fig1, ax1 = plt.subplots()
 sns.lineplot(data=df2, x="Review_Year", y="hours")
 ax1.tick_params(axis='x', labelsize=7, rotation=40)
@@ -84,7 +84,7 @@ st.write("This chart represent the time spent on PC video games according to the
          "to be the ones players spend the most time on.")
 
 
-st.header('Which genre is the most famous ?')
+st.header('Which genre is the most famous among players ?')
 fig2, ax2 = plt.subplots()
 sns.barplot(data=df2, x='Genre', y='hours')
 ax2.tick_params(axis='x', labelsize=7, rotation=40)
