@@ -96,7 +96,8 @@ st.write('As we see, "Trivia, Flight, "Pinball" and "Party genres are really ins
 
 st.header('Does the most famous games have the best reviews ?')
 st.write('According to the scatterplot bellow, we may see that the games that are played the most have the best reviews. However, the reciprocal is not true.'
-         ' (reduce the hour range for a better visualisation)')
+         ' (reduce the hour range for a better visualisation)'
+          'Please be patient, this chart may take a few seconds to load !')
 fig3, (ax3) = plt.subplots()
 sns.scatterplot(data=df2, x="Scores", y='hours', hue='Name', ax=ax3)
 ax3.legend(fontsize=6, ncols=4, loc='upper center', bbox_to_anchor=(0.5, -0.2))
