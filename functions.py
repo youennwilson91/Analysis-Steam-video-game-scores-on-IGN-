@@ -1,3 +1,6 @@
+#This file sores the functions used to retrieve data from IGN. There is a function to retrieve data from Gamespot too, but this one does not retrieve information
+#on the genre of the video games.
+
 import time
 import pprint as pp
 
