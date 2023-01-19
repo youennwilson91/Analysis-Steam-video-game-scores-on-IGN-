@@ -75,7 +75,6 @@ st.subheader(f'Month:{month} / Year:{year} / Genre : {genre}')
 
 st.dataframe(df2)
 st.header(f'Visualisation of time spent on games according to release year {year}')
-st.subheader(f'Lineplot years')
 fig1, ax1 = plt.subplots()
 sns.lineplot(data=df2, x="Review_Year", y="hours")
 ax1.tick_params(axis='x', labelsize=7, rotation=40)
