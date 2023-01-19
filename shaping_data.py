@@ -17,7 +17,7 @@ df_reviews_pc = df_reviews[df_reviews["Platform"] == "pc"]
 
 
 
-df_games_times = pd.read_csv("C:/Users/sewa/PycharmProjects/gameanalysis/steam-200k.csv")
+df_games_times = pd.read_csv("steam-200k.csv")
 df_games_times = df_games_times.rename(columns={"151603712": "player_id", "The Elder Scrolls V Skyrim": "Name", "purchase": "info", "1.0": "hours"})
 df_games_times["Name"] = df_games_times["Name"].str.strip().str.replace(':', "").str.replace('!', "").str.replace(',', "")\
                                 .str.replace(' - ', "").str.replace('-', " ").str.replace("III", "3").str.replace("II", "2").str.replace("IV", "4")\
