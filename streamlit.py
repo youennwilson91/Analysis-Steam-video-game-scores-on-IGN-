@@ -25,8 +25,8 @@ genre = st.sidebar.selectbox("Which genre DO you want to display ?", ['All', 'Ac
 
 
 st.header('Information about this analysis')
-st.write('1 - Here is a quick exploratory data analysis about pc video game reviews and gaming time.')
-st.write('2 - This analysis was made by merging Steam data (downloaded from https://www.kaggle.com/datasets/tamber/steam-video-games) with IGN data. '
+st.write('1 - Here is an application allowing simple exploratory data analysis on pc video game reviews and gaming time.')
+st.write('2 - This application was made by merging Steam data (downloaded from https://www.kaggle.com/datasets/tamber/steam-video-games) with IGN data. '
          'IGN is a video game media and website. It regularly publishes video game analysis and reviews. '
          'IGN data was retrieved with web scrapping. Since Steam is a software only available on PC, the data scrapped from IGN covers only PC games.')
 st.write('3 - IGN usually makes review up to two weeks after a game is released. Since it might be confusing, each chart will have a little description attached. ' )
